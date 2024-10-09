@@ -1,0 +1,21 @@
+import random
+
+list=["rock","paper","scissor"]
+computerChoice=random.choice(list)
+
+for x in list:
+
+    playerChoice=input("Select rock,paper or scissor")
+    print(computerChoice)
+    playerChoice=input("Select rock,paper or scissor")
+    print(computerChoice)
+    playerChoice=input("Select rock,paper or scissor")
+    print(computerChoice)
+    break
+if computerChoice > playerChoice:
+    print("you lose")
+else:
+    print("you win")
+
+
+

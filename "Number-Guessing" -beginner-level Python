@@ -1,0 +1,14 @@
+import random
+
+num = random.randint(1,10)
+guess = None
+
+while guess != num:
+    guess = input("enter your number:")
+    guess = int(guess)
+
+    if guess == num:
+        print("Congrats you won")
+        break
+    else:
+        print("sorry you lose")
